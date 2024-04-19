@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensor Media</title>
+</head>
+<body>
+    <h1>Médias dos Valores do Sensor</h1>
+
+    <h2>Média Diária</h2>
+    <img id="img_diario" src= "{% static 'mediadiário.png' %}" alt="Gráfico Média Diária">
+
+    <h2>Média Semanal</h2>
+    <img id="img_semanal" src="{% static 'mediasemanal.png' %}" alt="Gráfico Média Semanal">
+
+    <h2>Média Mensal</h2>
+    <img id="img_mensal" src="{% static 'mediamensal.png' %}" alt="Gráfico Média Mensal">
+</body>
+</html>
